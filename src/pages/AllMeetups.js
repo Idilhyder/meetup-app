@@ -36,6 +36,7 @@ const AllMeetupsPage = () => {
       })
 
       .then((data) => {
+        //data was in a object- transform into array
         const meetups = [];
 
         for (const key in data) {
